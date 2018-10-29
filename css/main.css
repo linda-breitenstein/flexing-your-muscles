@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  margin: 0
+  margin: 0;
 }
 
 img {
@@ -20,6 +20,7 @@ img {
 .footer {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   padding: 1em 0;
 
   background-color: #8bc9d9;
@@ -28,6 +29,23 @@ img {
   color: #005e76;
 }
 
+.footer ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.footer a {
+  color: #003442;
+}
+
+.social {
+  display: flex;
+}
+
 .social > li {
   width: 3em;
+}
+
+.copyright {
+  width: 100%;
 }
